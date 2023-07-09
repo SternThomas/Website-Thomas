@@ -122,6 +122,10 @@ a :hover {
     text-decoration: none;
 }
 
+#tel{
+    display: none;
+}
+
 @media only screen and (max-width: 570px) {
     #zusammenfassung {
         display: grid;
@@ -158,5 +162,8 @@ a :hover {
 
     #Schnunppern {
         margin-bottom: 5px;
+    }
+    #tel {
+        display: block;
     }
 }
