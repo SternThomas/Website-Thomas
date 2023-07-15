@@ -1,17 +1,18 @@
 html {
     scroll-behavior: smooth;
-    font-family: serif;
+
 }
 
 body {
     max-width: 100%;
     margin: 0px;
+    font-family: serif !important;
 }
 
 .navbar {
     display: flex;
     justify-content: space-between;
-    padding: 20px 40px;
+    padding: 20px 40px !important;
     line-height: 20px;
     max-width: 100%;
     background-color: #1e323a;
@@ -21,22 +22,22 @@ body {
 }
 
 .navbar-link {
-    align-self: center;
-    color: #c4c4c4;
+    align-self: center !important;
+    color: #c4c4c4 !important;
 }
 
 .navbar-link .link {
-    color: #c4c4c4;
-    padding: 8px 15px;
-    border-radius: 30px;
-    border: 1px solid #c4c4c4;
-    margin-left: 10px;
-    transition: background-color 0.5s ease;
+    color: #c4c4c4 !important;
+    padding: 8px 15px !important;
+    border-radius: 30px !important;
+    border: 1px solid #c4c4c4 !important;
+    margin-left: 10px !important;
+    transition: background-color 0.5s ease !important;
 }
 
 .navbar-link :hover {
-    background-color: #c4c4c4;
-    color: #1e323a;
+    background-color: #c4c4c4 !important;
+    color: #1e323a !important;
 }
 
 #title {
@@ -60,25 +61,35 @@ body {
 }
 
 .footer-contant {
-    margin-left: 15Px;
+    margin-left: 15Px !important;
 }
 
 .footer a {
-    text-decoration: none;
-    color: #c4c4c4;
+    text-decoration: none !important;
+    color: #c4c4c4 !important;
+}
+#img-box{
+    height: 100px !important;
+    width: auto !important;
+}
+
+#img-size{
+    height:400px;
+    width: auto;
+
 }
 
 
 .link {
-    text-decoration: none;
+    text-decoration: none !important;
 }
 
 .link :hover {
-    text-decoration: underline;
+    text-decoration: underline !important;
 }
 
 .Lebenslauf {
-    margin-right: 100%;
+    margin-right: 100% !important;
 }
  
 .boxes {
@@ -109,11 +120,11 @@ body {
 }
 
 a {
-    text-decoration: none;
-    color: green;
+    text-decoration: none !important;
+    color: green !important;
 }
 a :hover {
-    text-decoration: none;
+    text-decoration: none !important;
 }
 
 #Schnupperlehren{
