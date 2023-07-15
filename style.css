@@ -16,7 +16,8 @@ body {
     max-width: 100%;
     background-color: #1e323a;
     color: #c4c4c4;
-
+    position: sticky;
+    top: 0;
 }
 
 .navbar-link {
@@ -76,14 +77,14 @@ body {
     text-decoration: underline;
 }
 
-.Schnunppern {
+.Lebenslauf {
     margin-right: 100%;
 }
  
 .boxes {
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     max-width: 750px;
-    margin: 40px auto;
+    margin: 40px auto; 
     padding: 20px 40px;
     border-radius: 10px;
     margin: 40px auto;
