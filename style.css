@@ -18,7 +18,7 @@ body {
     background-color: #1e323a;
     color: #c4c4c4;
     position: sticky !important;
-    z-index: 1;
+    z-index: 2;
     top: 0;
 }
 
@@ -140,6 +140,11 @@ a :hover {
 #Schnupperlehren {
     line-height: 1.5;
 }
+@media only screen and (max-width: 770px) {
+    .boxes{
+        margin: 40px 10px;
+    }
+}
 
 @media only screen and (max-width: 570px) {
     #zusammenfassung {
@@ -175,6 +180,9 @@ a :hover {
     .navbar-link {
         display: grid;
         text-align: center;
+    }
+    #Unterlagen{
+        margin-top: 5px;
     }
 
     #Schnunppern {
