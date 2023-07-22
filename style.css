@@ -17,7 +17,8 @@ body {
     max-width: 100%;
     background-color: #1e323a;
     color: #c4c4c4;
-    position: sticky;
+    position: sticky !important;
+    z-index: 1;
     top: 0;
 }
 
@@ -52,33 +53,41 @@ body {
 .footer {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center !important;
     background-color: #1e323a;
     color: #c4c4c4;
-    padding: 10px 40px;
-    position: sticky;
-    bottom: 0px;
+    padding: 10px 40px !important;
 }
 
 .footer-contant {
-    margin-left: 15Px !important;
+    margin: 0 0 0 15Px !important
+}
+
+#Kontakt {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
 }
 
 .footer a {
     text-decoration: none !important;
     color: #c4c4c4 !important;
 }
-#img-box{
-    height: 100px !important;
-    width: auto !important;
+
+#img-box {
+    height: auto !important;
+    width: 70% !important;
+    margin: 0 auto;
+    margin-top: 10px;
 }
 
-#img-size{
-    height:400px;
-    width: auto;
-
+#img-size {
+    border-radius: 8px !important
 }
-
 
 .link {
     text-decoration: none !important;
@@ -91,11 +100,11 @@ body {
 .Lebenslauf {
     margin-right: 100% !important;
 }
- 
+
 .boxes {
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     max-width: 750px;
-    margin: 40px auto; 
+    margin: 40px auto;
     padding: 20px 40px;
     border-radius: 10px;
     margin: 40px auto;
@@ -123,11 +132,12 @@ a {
     text-decoration: none !important;
     color: green !important;
 }
+
 a :hover {
     text-decoration: none !important;
 }
 
-#Schnupperlehren{
+#Schnupperlehren {
     line-height: 1.5;
 }
 
@@ -156,6 +166,9 @@ a :hover {
         margin-left: 0;
     }
 
+    #img-box {
+        width: 100% !important;
+    }
 }
 
 @media only screen and (max-width: 460px) {
