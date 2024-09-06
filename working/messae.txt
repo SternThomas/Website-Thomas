@@ -1,0 +1,104 @@
+MyWatch
+Sheet1
+
+15
+Sport	Kreativ	Innovaiv und funktional	5000-10000	Chronograph	Chronograph (Omega Speedmaster)
+16
+Sport	Kreativ	Innovaiv und funktional	10000+	Chronograph	Chronograph (Omega Speedmaster)
+
+18
+Sport	Gelassen	Klassisch und minimalistisch	2000-5000	Chronograph	Chronograph (Tag Heuer Monaco)
+19
+Sport	Gelassen	Klassisch und minimalistisch	5000-10000	Dresswatch	Dresswatch (Jaeger-LeCoultre Reverso)
+20
+Sport	Gelassen	Klassisch und minimalistisch	10000+	GMT Uhr	GMT Uhr (Panerai Luminor)
+21
+Sport	Gelassen	Innovaiv und funktional	500-2000	Chronograph	Chronograph (Swatch Sistem51)
+22
+Sport	Gelassen	Innovaiv und funktional	2000-5000	Chronograph	Chronograph (Tag Heuer Monaco)
+23
+Sport	Gelassen	Innovaiv und funktional	5000-10000	Chronograph	Chronograph (Omega Speedmaster)
+24
+Sport	Gelassen	Innovaiv und funktional	10000+	Chronograph	Chronograph (Omega Speedmaster)
+26
+Lesen	Organisiert	Klassisch und minimalistisch	2000-5000	Chronograph	Chronograph (Swatch Sistem51)
+27
+Lesen	Organisiert	Klassisch und minimalistisch	5000-10000	Dresswatch	Dresswatch (Jaeger-LeCoultre Reverso), Flieger (IWC Pilot Mark)
+28
+Lesen	Organisiert	Klassisch und minimalistisch	10000+	Dresswatch, Flieger	Dresswatch (Jaeger-LeCoultre Reverso), Flieger (IWC Pilot Mark)
+29
+Lesen	Organisiert	Innovaiv und funktional	500-2000	Chronograph	Chronograph (Swatch Sistem51)
+31
+Lesen	Organisiert	Innovaiv und funktional	5000-10000	Chronograph	Chronograph (Omega Speedmaster)
+32
+Lesen	Organisiert	Innovaiv und funktional	10000+	GMT Uhr	GMT Uhr (Panerai Luminor)
+34
+Lesen	Kreativ	Klassisch und minimalistisch	2000-5000	Chronograph	Chronograph (Swatch Sistem51)
+35
+Lesen	Kreativ	Klassisch und minimalistisch	5000-10000	Dresswatch	Dresswatch (Jaeger-LeCoultre Reverso)
+36
+Lesen	Kreativ	Klassisch und minimalistisch	10000+	GMT Uhr	GMT Uhr (Panerai Luminor)
+37
+Lesen	Kreativ	Innovaiv und funktional	500-2000	Chronograph	Chronograph (Swatch Sistem51)
+39
+Lesen	Kreativ	Innovaiv und funktional	5000-10000	Chronograph	Chronograph (Omega Speedmaster)
+40
+Lesen	Kreativ	Innovaiv und funktional	10000+	GMT Uhr	GMT Uhr (Panerai Luminor)
+42
+Lesen	Gelassen	Klassisch und minimalistisch	2000-5000	Chronograph	Chronograph (Swatch Sistem51)
+43
+Lesen	Gelassen	Klassisch und minimalistisch	5000-10000	Dresswatch	Dresswatch (Jaeger-LeCoultre Reverso)
+44
+Lesen	Gelassen	Klassisch und minimalistisch	10000+	GMT Uhr	GMT Uhr (Panerai Luminor)
+45
+Lesen	Gelassen	Innovaiv und funktional	500-2000	Chronograph	Chronograph (Swatch Sistem51)
+47
+Lesen	Gelassen	Innovaiv und funktional	5000-10000	Chronograph	Chronograph (Omega Speedmaster)
+48
+Lesen	Gelassen	Innovaiv und funktional	10000+	GMT Uhr	GMT Uhr (Panerai Luminor)
+50
+Reisen	Organisiert	Klassisch und minimalistisch	2000-5000	Chronograph	Chronograph (Swatch Sistem51)
+51
+Reisen	Organisiert	Klassisch und minimalistisch	5000-10000	Chronograph	Chronograph (Breitling Navitimer)
+52
+Reisen	Organisiert	Klassisch und minimalistisch	10000+	Chronograph	Chronograph (Breitling Navitimer)
+53
+Reisen	Organisiert	Innovaiv und funktional	500-2000	Chronograph	Chronograph (Swatch Sistem51)
+54
+Reisen	Organisiert	Innovaiv und funktional	2000-5000	Chronograph	Chronograph (Tag Heuer Monaco)
+55
+Reisen	Organisiert	Innovaiv und funktional	5000-10000	Chronograph	Chronograph (Omega Speedmaster)
+56
+Reisen	Organisiert	Innovaiv und funktional	10000+	GMT Uhr	GMT Uhr (Panerai Luminor)
+57
+Reisen	Kreativ	Klassisch und minimalistisch	500-2000	Dresswatch	Dresswatch (Tissot PRX Automatic)
+58
+Reisen	Kreativ	Klassisch und minimalistisch	2000-5000	Chronograph	Chronograph (Tag Heuer Monaco)
+59
+Reisen	Kreativ	Klassisch und minimalistisch	5000-10000	Dresswatch	Dresswatch (Jaeger-LeCoultre Reverso)
+60
+Reisen	Kreativ	Klassisch und minimalistisch	10000+	GMT Uhr	GMT Uhr (Panerai Luminor)
+61
+Reisen	Kreativ	Innovaiv und funktional	500-2000	Taucher	Taucher (Seiko SKX007)
+62
+Reisen	Kreativ	Innovaiv und funktional	2000-5000	Chronograph	Chronograph (Tag Heuer Monaco)
+63
+Reisen	Kreativ	Innovaiv und funktional	5000-10000	Chronograph	Chronograph (Omega Speedmaster)
+64
+Reisen	Kreativ	Innovaiv und funktional	10000+	GMT Uhr	GMT Uhr (Panerai Luminor)
+65
+Reisen	Gelassen	Klassisch und minimalistisch	500-2000	Dresswatch	Dresswatch (Tissot PRX Automatic)
+66
+Reisen	Gelassen	Klassisch und minimalistisch	2000-5000	Chronograph	Chronograph (Tag Heuer Monaco)
+67
+Reisen	Gelassen	Klassisch und minimalistisch	5000-10000	Dresswatch	Dresswatch (Jaeger-LeCoultre Reverso)
+68
+Reisen	Gelassen	Klassisch und minimalistisch	10000+	GMT Uhr	GMT Uhr (Panerai Luminor)
+69
+Reisen	Gelassen	Innovaiv und funktional	500-2000	Taucher	Taucher (Seiko SKX007)
+70
+Reisen	Gelassen	Innovaiv und funktional	2000-5000	GMT Uhr	GMT Uhr (Panerai Luminor)
+71
+Reisen	Gelassen	Innovaiv und funktional	5000-10000	Chronograph	Chronograph (Omega Speedmaster)
+72
+Reisen	Gelassen	Innovaiv und funktional	10000+	Chronograph	Chronograph (Omega Speedmaster)

@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thomas</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="favicon//site.webmanifest">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div>
+            <a>
+                <h1 id="MyWatch3">MyWatch</h1>
+            </a>
+        </div>
+    </nav>
+    <div class="boxes">
+        <h2 class="about_us">Das sind wir: Thomas Stern und Noah Martini</h2>
+        <div class="about_us" id="thomas">
+            <div>
+                <p>
+                    Wir sind zwei Schüler der dritten Sekundarstuffe mit unterschiedlichen Interessen und Stärken, die
+                    wir in einer Website für Empfehlungen zur richtigen Uhrenwahl zusammenknüpfen.
+                    Das Uhrenwissen von Noah Martini ergänzt die Programmierkünste von Thomas Stern. Die Website MyWatch
+                    löst das Problem beim Auswahlverfahren einer Uhr, indem Fragen über die eigene Person beantwortet
+                    werden und anschliessend eine passende Uhren- Kategorie empfohlen wird.
+                </p>
+
+            </div>
+            <div id="pictures_top">
+                <div id="thomas_img">
+                    <img class="picture" src="Pictures/thomas_img.JPG" alt="Foto von Thomas">
+                </div>
+                <div id="noah_img">
+                    <img class="picture" src="Pictures/Noah.jpg" alt="Foto von Noah">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <form id="questionnaireForm">
+        <div class="boxes">
+            <h2 class="MyWatch Header">My Watch</h2>
+            <div class="about_us" id="thomas">
+                <div>
+                    Es werden insgesamt vier Fragen gestellt und die gesamte Dauer der Beratung beträgt zwei bis drei
+                    Minuten. Die Fragen sind darauf ausgerichtet, Uhren oder eine Idee der idealen Uhr für jeden
+                    Uhrenliebhaber zu finden. Bitte wähle pro Frage maximal eine Option.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Add your checkbox questions here, as shown before -->
+
+        <div class="boxes">
+            <!-- Name = Frage (1-8) + Welche Checkbox-->
+            <h3>1/4) Aktivitätsvorlieben</h3>
+            <p>Was machst du in deiner Freizeit am liebsten?</p>
+            <div class="checkbox-container" id="checkbox-container">
+                <div class="checkbox-item">
+                    <input type="checkbox" id="1_1" name="1_1">
+                    <label for="1_1" class="checkbox-label">Sport</label>
+                </div>
+                <div class="checkbox-item">
+                    <input type="checkbox" id="1_2" name="1_2">
+                    <label for="1_2" class="checkbox-label">Lesen</label>
+                </div>
+                <div class="checkbox-item">
+                    <input type="checkbox" id="1_3" name="1_3">
+                    <label for="1_3" class="checkbox-label">Reisen</label>
+                </div>
+            </div>
+        </div>
+        <div class="boxes">
+            <h3>2/4) Persönlichkeitsmerkmale</h3>
+            <p>Wie würden dich deine Freunde beschreiben?</p>
+            <div class="checkbox-container-2" id="checkbox-container-2">
+                <div class="checkbox-item">
+                    <input type="checkbox" id="2_1" name="2_1">
+                    <label for="2_1" class="checkbox-label">Organisiert</label>
+                </div>
+                <div class="checkbox-item">
+                    <input type="checkbox" id="2_2" name="2_2">
+                    <label for="2_2" class="checkbox-label">Kreativ</label>
+                </div>
+                <div class="checkbox-item">
+                    <input type="checkbox" id="2_3" name="2_3">
+                    <label for="2_3" class="checkbox-label">Gelassen</label>
+                </div>
+            </div>
+        </div>
+        <div class="boxes">
+            <h3>3/4) Was magst du lieber?</h3>
+            <div class="checkbox-container-3" id="checkbox-container-3">
+                <div class="checkbox-item">
+                    <input type="checkbox" id="3_1" name="3_1">
+                    <label for="3_1" class="checkbox-label">Klassisch und minimalistisch</label>
+                </div>
+                <div class="checkbox-item">
+                    <input type="checkbox" id="3_2" name="3_2">
+                    <label for="3_2" class="checkbox-label">Innovativ und funktional</label>
+                </div>
+            </div>
+        </div>
+        <div class="boxes">
+            <h3>4/4) Wieviel Geld willst du ausgeben?</h3>
+            <div class="checkbox-container-4" id="checkbox-container-4">
+                <div class="checkbox-item">
+                    <input type="checkbox" id="4_1" name="4_1">
+                    <label for="4_1" class="checkbox-label">500-2'000</label>
+                </div>
+                <div class="checkbox-item">
+                    <input type="checkbox" id="4_2" name="4_2">
+                    <label for="4_2" class="checkbox-label">2'000-5'000</label>
+                </div>
+                <div class="checkbox-item">
+                    <input type="checkbox" id="4_3" name="4_3">
+                    <label for="4_3" class="checkbox-label">5'000-10'000</label>
+                </div>
+                <div class="checkbox-item">
+                    <input type="checkbox" id="4_4" name="4_4">
+                    <label for="4_4" class="checkbox-label">10'000+</label>
+                </div>
+            </div>
+        </div>
+
+        <div id="answers123" class="resultate">
+            <h3 class="idfk" id="sl">Wenn du pro Frage eine Antwort ausgewählt hast, werden unten vier Uhren erscheinen. <br> Das sind Beispiele, die zu dir passen könnten.</h3>
+            </h4>
+            <ol>
+                <ul>
+                    <div class="1-4">
+                        <p id="1_1_h2" class="answers"></p>
+                    </div>
+                </ul>
+                <ul>
+                    <div class="1-4">
+                        <p id="1_2_h2" class="answers"></p>
+                    </div>
+                </ul>
+                <ul>
+                    <div class="1-4">
+                        <p id="1_3_h2" class="answers"></p>
+                    </div>
+                </ul>
+                <ul>
+                    <div class="1-4">
+                        <p id="1_4_h2" class="answers"></p>
+                    </div>
+                </ul>
+            </ol>
+        </div>
+
+
+
+        <div class="container" id="unshow">
+            <div class="card__container">
+                <!-- <div id="Chronograph"> -->
+                <article class="card__article" id="Chronograph1">
+                    <img src="Pictures/TAG_Heuer_Formula.jpg" alt="Tag Heuer Formula 1" class="card__img">
+                    <div class="card__data">
+                        <span class="card__description">Tag Heuer</span>
+                        <h2 class="card__title">Tag Heuer Formula 1</h2>
+                        <p>Chronograph<br>Preis: 1'000 - 2'000 CHF</p>
+                    </div>
+                </article>
+                <article class="card__article" id="Chronograph2">
+                    <img src="Pictures/Frederique_Constant_Highlife.png" alt="Frédérique Constant Highlife"
+                        class="card__img">
+                    <div class="card__data">
+                        <span class="card__description">Frédérique Constant</span>
+                        <h2 class="card__title">Frédérique Constant Highlife</h2>
+                        <p>Chronograph<br>Preis: 2'000 - 2'500 CHF</p>
+                    </div>
+                </article>
+                <article class="card__article" id="Chronograph3">
+                    <img src="Pictures/Omega_Speedmaster.png" alt="Omega Speedmaster" class="card__img">
+                    <div class="card__data">
+                        <span class="card__description">Omega</span>
+                        <h2 class="card__title">Omega Speedmaster</h2>
+                        <p>Chronograph<br>Preis: 6'000 - 8'000 CHF</p>
+                    </div>
+                </article>
+                <article class="card__article" id="Chronograph4">
+                    <img src="Pictures/Rolex_Daytona_Panda.png" alt="Rolex Daytona Panda" class="card__img">
+                    <div class="card__data">
+                        <span class="card__description">Rolex</span>
+                        <h2 class="card__title">Rolex Daytona Panda</h2>
+                        <p>Chronograph<br>Preis: +30000 CHF</p>
+                    </div>
+                </article>
+                <!-- </div> -->
+                <!-- <div id="Taucher"> -->
+                <article class="card__article" id="Taucher1">
+                    <img src="Pictures/Certina_ds.png" alt="Certina ds Action Diver 2" class="card__img">
+                    <div class="card__data">
+                        <span class="card__description">Certina</span>
+                        <h2 class="card__title">Certina ds Action Diver 2</h2>
+                        <p>Taucheruhr<br>Preis: 750 - 1'000 CHF</p>
+                    </div>
+                </article>
+                <article class="card__article" id="Taucher2">
+                    <img src="Pictures/Tudor_black_bay.png" alt="Tudor black bay" class="card__img">
+                    <div class="card__data">
+                        <span class="card__description">Tudor</span>
+                        <h2 class="card__title">Tudor black bay</h2>
+                        <p>Taucheruhr<br>Preis: 3'000 - 5'000 CHF</p>
+                    </div>
+                </article>
+                <article class="card__article" id="Taucher3">
+                    <img src="Pictures/Omega_Speedmaster2.png" alt="Omega Speedmaster" class="card__img">
+                    <div class="card__data">
+                        <span class="card__description">Omega</span>
+                        <h2 class="card__title">Omega Seamaster</h2>
+                        <p>Taucheruhr<br>Preis: 6'000 - 8'000 CHF</p>
+                    </div>
+                </article>
+                <article class="card__article" id="Taucher4">
+                    <img src="Pictures/Rolex_Submariner.png" alt="Rolex Submariner" class="card__img">
+                    <div class="card__data">
+                        <span class="card__description">Rolex</span>
+                        <h2 class="card__title">Rolex Submariner</h2>
+                        <p>Taucheruhr<br>Preis: 10'000 - 15'000 CHF</p>
+                    </div>
+                </article>
+                <!-- </div> -->
+                <!-- <div id="Dresswatch"> -->
+                <article class="card__article" id="Dresswatch1">
+                    <img src="Pictures/Tissot_PRX.png" alt="Tissot PRX automatic" class="card__img">
+                    <div class="card__data">
+                        <span class="card__description">Tissot</span>
+                        <h2 class="card__title">Tissot PRX automatic</h2>
+                        <p>Dresswatch<br>Preis: 600 - 850 CHF</p>
+                    </div>
+                </article>
+                <article class="card__article" id="Dresswatch2">
+                    <img src="Pictures/Tudor_black_41.png" alt="Flagship Heritage Moonphase" class="card__img">
+                    <div class="card__data">
+                        <span class="card__description">Tudor</span>
+                        <h2 class="card__title">Tudor blackbay 41</h2>
+                        <p>Dresswatch<br>Preis: 3'000 - 4'000 CHF</p>
+                    </div>
+                </article>
+                <article class="card__article" id="Dresswatch3">
+                    <img src="Pictures/IWC_Portugiesser.png" alt="Omega Speedmaster" class="card__img">
+                    <div class="card__data">
+                        <span class="card__description">IWC</span>
+                        <h2 class="card__title">IWC Portugieser</h2>
+                        <p>Dresswatch<br>Preis: 7'500 - 10'000 CHF</p>
+                    </div>
+                </article>
+                <article class="card__article" id="Dresswatch4">
+                    <img src="Pictures/Rolex_Datejust.png" alt="Rolex Datejust" class="card__img">
+                    <div class="card__data">
+                        <span class="card__description">Rolex</span>
+                        <h2 class="card__title">Rolex Datejust</h2>
+                        <p>Dresswatch<br>Preis: 15'000 - 20'000 CHF</p>
+                    </div>
+                </article>
+                <!-- </div> -->
+                <!-- <div id="GMT_Uhr"> -->
+                <article class="card__article" id="GMT_Uhr1">
+                    <img src="Pictures/Certina_ds_GMT.png" alt="Certina ds action gmt" class="card__img">
+                    <div class="card__data">
+                        <span class="card__description">Certina</span>
+                        <h2 class="card__title">Certina ds action gmt</h2>
+                        <p>GMT Uhr<br>Preis: 1'000 - 1'250 CHF</p>
+                    </div>
+                </article>
+                <article class="card__article" id="GMT_Uhr2">
+                    <img src="Pictures/Tudor_3.png" alt="tudor blackbay gmt" class="card__img">
+                    <div class="card__data">
+                        <span class="card__description">Tudor</span>
+                        <h2 class="card__title">tudor blackbay gmt</h2>
+                        <p>GMT Uhr<br>Preis: 3'500 - 4'000 CHF</p>
+                    </div>
+                </article>
+                <article class="card__article" id="GMT_Uhr3">
+                    <img src="Pictures/Omega_Seamaster.png" alt="Omega Speedmaster" class="card__img">
+                    <div class="card__data">
+                        <span class="card__description">Omega</span>
+                        <h2 class="card__title">Omega Seamaster Planet Ocean</h2>
+                        <p>GMT Uhr<br>Preis: 7'500 - 10'000 CHF</p>
+                    </div>
+                </article>
+                <article class="card__article" id="GMT_Uhr4">
+                    <img src="Pictures/rolex_gmt.png" alt="Rolex GMT Master 2" class="card__img">
+                    <div class="card__data">
+                        <span class="card__description">Rolex</span>
+                        <h2 class="card__title">Rolex GMT Master 2</h2>
+                        <p>GMT Uhr<br>Preis: 12'500 - 17'500 CHF</p>
+                    </div>
+                </article>
+                <!-- </div> -->
+            </div>
+        </div>
+
+        </div>
+
+
+        </div>
+
+    </form>
+
+    <!-- footer -->
+    <footer>
+        <div class="footer">
+            <p class="footer-contant" id="Kontakt">Kontakt</p>
+            <a class="footer-contant" href="mailto:tl@stern.ch" target="_blank">tl@stern.ch</a>
+            <a class="footer-contant">+41&nbsp;77&nbsp;528&nbsp;38&nbsp;89</a>
+            <a class="footer-contant"
+                href="https://www.google.com/maps/place/LIPSCHULE/@47.3354124,8.5417837,19.37z/data=!4m6!3m5!1s0x479aa77aee880add:0x2119a9faa801cca6!8m2!3d47.3352488!4d8.5414392!16s%2Fg%2F1v6p7v0t?entry=ttu"
+                target="_blank">Lipschule, Seestrasse 561, Zürich</a>
+        </div>
+    </footer>
+
+
+
+    <script src="diplom.js">
+
+    </script>
+</body>
+
+</html>
